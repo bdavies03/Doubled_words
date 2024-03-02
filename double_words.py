@@ -1,4 +1,4 @@
-#A function that will filter out any words comprised of a string repeated twice from a list (words) and outputting them in a seperate list
+#A function that will filter out any words comprised of a string repeated twice from a list and outputting them in a seperate list
 
 def filter_doubled(words):
     i = 0
@@ -20,5 +20,5 @@ def filter_doubled(words):
     return(output)
 
 
-words = ['bonbon', 'hello', 'pompom', 'hi', 'chicken', 'couscous', 'a', 'aa', 'aaa']
+words = ['bonbon', 'hello', 'pompom', 'hi', 'chicken', 'couscous', 'a', 'aa', 'aaa'] #the list of words to be checked
 print(filter_doubled(words))
